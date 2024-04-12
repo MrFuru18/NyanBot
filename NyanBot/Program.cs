@@ -1,4 +1,4 @@
-﻿using System;
+﻿
 
 namespace NyanBot
 {
@@ -7,6 +7,10 @@ namespace NyanBot
         static void Main(string[] args)
         {
             Console.WriteLine("Hello Everynyan!!! UwU");
+
+            var nyanBot = new NyanBot();
+            nyanBot.MainAsync().GetAwaiter().GetResult();
         }
+
     }
 }

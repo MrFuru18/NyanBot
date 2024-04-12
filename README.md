@@ -1,0 +1,2 @@
+# NyanBot
+Cringe Discord Bot

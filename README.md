@@ -1,2 +1,2 @@
 # NyanBot
-Cringe Discord Bot
+Cringe Discord Bot tha Nyans at people

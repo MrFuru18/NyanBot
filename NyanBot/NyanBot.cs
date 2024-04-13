@@ -40,12 +40,13 @@ namespace NyanBot
         {
             var config = new DiscordSocketConfig
             {
-                LogLevel = Discord.LogSeverity.Debug,
+                //LogLevel = LogSeverity.Debug,
                 AlwaysDownloadUsers = false,
-                MessageCacheSize = 200
+                MessageCacheSize = 200,   
+                GatewayIntents = GatewayIntents.All
             };
 
-            _client = new DiscordSocketClient();
+            _client = new DiscordSocketClient(config);
             _client.Log += Log;
 
             var prefix = JsonConvert.DeserializeObject<ConfigJson>(File.ReadAllText("config.json")).Prefix;

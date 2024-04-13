@@ -1,4 +1,5 @@
 .vscode
+*.sln
 NyanBot/bin
 NyanBot/obj
 NyanBot/config.json

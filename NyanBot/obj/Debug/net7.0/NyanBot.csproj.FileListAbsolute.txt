@@ -25,3 +25,4 @@ D:\Programy\C#\NyanBot\NyanBot\NyanBot\obj\Debug\net7.0\refint\NyanBot.dll
 D:\Programy\C#\NyanBot\NyanBot\NyanBot\obj\Debug\net7.0\NyanBot.pdb
 D:\Programy\C#\NyanBot\NyanBot\NyanBot\obj\Debug\net7.0\NyanBot.genruntimeconfig.cache
 D:\Programy\C#\NyanBot\NyanBot\NyanBot\obj\Debug\net7.0\ref\NyanBot.dll
+D:\Programy\C#\NyanBot\NyanBot\NyanBot\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.dll
